@@ -16,7 +16,7 @@
         display: grid; /* used to center h1 */
       }
     
-  h1 {text-align : center ; 
+  h1 {text-align : right ; 
     font-family: 'Noto Sans JP', sans-serif;color: black; font-weight: bolder ; font-style: normal}
     
     h2  {font-family: 'Noto Sans JP', sans-serif;color: black;font-weight: bold}
@@ -40,16 +40,53 @@
 </head>
 
 <div class="container">
+      
+      <!-- inside our ".container", we can create ".row" -->
+      <div class="row">
+        <!-- ".row" can be divided in as many ".colums" as you need for a total of twelve columns -->
+        <!-- just use a number and class 'column' or 'columns' -->      
+        <div class="one column">One</div>
+        <div class="eleven columns">Eleven</div>
+      </div>
+      <!-- columns have to be the immediate child of a .row -->
+      
+      <!-- to create a new grid we crete a new ".row" -->
+      <div class="row">
+        <div class="six columns">Six</div>
+        <div class="six columns">Six</div>
+      </div>
+      
+      <!-- and we can have more than 2 columns of course -->
+      <div class="row">
+        <div class="two columns">Two</div>
+        <div class="two columns">Two</div>
+        <div class="three columns">Three</div>
+        <div class="five columns">Five</div>
+      </div>
+      
+      <div class="row">
+        <div class="three columns">Three</div>
+        <div class="six columns">Six</div>
+        <div class="three columns">Three</div>
+      </div>
 
-<img height="300" class="centered" src="https://static01.nyt.com/images/2020/10/08/opinion/08mitchell-illo/08mitchell-illo-jumbo.jpg?quality=90&auto=webp">
+<div class="container">
+  
+   <div class="row">
+        <!-- ".row" can be divided in as many ".colums" as you need for a total of twelve columns -->
+        <!-- just use a number and class 'column' or 'columns' -->      
+        <div class="three column"><img height="200" src="https://static01.nyt.com/images/2020/10/08/opinion/08mitchell-illo/08mitchell-illo-jumbo.jpg?quality=90&auto=webp"></div>
+        <div class="nine columns"><h1>
+  Don't let Amazon  <br>
+         get any bigger 
+</h1></div>
+      </div>
+
+
 
 <h3>
             By Stacy Mitchell, Co-director of the Institute for Local Self-Reliance. 
           </h3>
-
-<h1>
-  Don't let Amazon get any bigger 
-</h1>
 
 
 <h2>
@@ -185,7 +222,7 @@ Judiciary Committee</a>, following a bipartisan investigation of the tech giants
         <p>But that isn’t enough to restore a fair and open online market. We
   also need rules that would require major digital platforms to provide
   reasonable terms for access to their platforms and bar them from
-  discriminating against companies. 
+          discriminating against companies. </p>
       
       
         <p>Finally, it’s imperative to correct the
@@ -193,14 +230,14 @@ Judiciary Committee</a>, following a bipartisan investigation of the tech giants
   and abuse it. In recent decades, the courts and the antitrust agencies have
   weakened our once strong antitrust laws. As a result, Amazon has been able to
   vanquish competitors using tactics such as predatory pricing that might have
-  invited criminal prosecution in an earlier era. 
+          invited criminal prosecution in an earlier era. </p>
       
       
         <p>This permissive stance, the
   committee found, has also allowed Amazon to buy up other companies with the
   aim of snuffing out potential rivals and taking control of emerging
   technologies. Its report calls for imposing new hurdles on acquisitions by the
-  tech giants and legislation to restore the vigor of the antitrust laws. 
+          tech giants and legislation to restore the vigor of the antitrust laws. </p>
       
       
         <p>Jeff

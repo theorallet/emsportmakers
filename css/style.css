@@ -1,0 +1,35 @@
+body {
+  background: lightgray;
+  height: 100vh; /* vh stands for ViewHeight => 100vh = full height */
+}
+    
+h1 {
+  text-align : right ; 
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black; 
+  font-weight: bolder; 
+  font-style: normal;
+}
+    
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+  font-weight: bold
+}
+    
+      
+    
+    h3 {
+        background: black;
+        padding: 10px;
+        border-radius: 5px;
+      color:white
+      }
+    
+    .centered{
+    display: block;
+    margin-left: auto;
+      margin-right: auto }
+
+p {
+  font-family: 'Noto Sans JP', sans-serif;color: black}

@@ -1,11 +1,11 @@
 body {
   background: lightgray;
-  height: 100vh; /* vh stands for ViewHeight => 100vh = full height */
+  margin-top: 1em;
 }
     
 h1 {
-  text-align : right ; 
-  font-family: 'Noto Sans JP', sans-serif;
+  text-align : center; 
+  font-family: 'Bebas Neue', cursive;
   color: black; 
   font-weight: bolder; 
   font-style: normal;
@@ -16,20 +16,28 @@ h2 {
   color: black;
   font-weight: bold
 }
-    
-      
-    
-    h3 {
-        background: black;
-        padding: 10px;
-        border-radius: 5px;
-      color:white
-      }
-    
-    .centered{
-    display: block;
-    margin-left: auto;
-      margin-right: auto }
+
+h3 {
+  background: black;
+  padding: 10px;
+  border-radius: 5px;
+  color:white
+}
 
 p {
-  font-family: 'Noto Sans JP', sans-serif;color: black}
+  font-family: 'Noto Sans JP', sans-serif;
+  color: black
+}
+
+hr {
+  color: red;
+  size: 1em;
+}
+
+/* Classes */
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

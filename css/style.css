@@ -16,15 +16,12 @@ h2 {
 }
 
 h3 {
-  background: black;
-  padding: 10px;
-  border-radius: 5px;
-  color:white
+  text-align : center; 
+  font-family: 'Fira Sans', sans-serif;
 }
 
 p {
-  font-family: 'Noto Sans JP', sans-serif;
-  color: black
+  font-family: 'Fira Sans', sans-serif;
 }
 
 hr {

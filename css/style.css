@@ -8,11 +8,14 @@ h1 {
   color: #eb1a20; 
   font-weight: bolder; 
   font-style: normal;
+  font-size : 500%;
+
 }
     
 h2 {
   font-family: 'Bebas Neue', cursive;
   color: black;
+  font-weight: bolder; 
 }
 
 h3 {
@@ -24,7 +27,7 @@ h4 {
   font-family: 'Bebas Neue', cursive;
   color: black;
   text-align : center;
-  font-size : 350%
+  font-size : 350%;
 }
 
 p {
